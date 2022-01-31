@@ -17,8 +17,6 @@ class SettingsViewController: UIViewController {
     
         super.viewDidLoad()
         
-    
-
         
     }
     

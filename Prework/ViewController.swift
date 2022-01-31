@@ -8,8 +8,6 @@
 import UIKit
 import SwiftUI
 
-
-
 class ViewController: UIViewController {
 
                             
@@ -21,7 +19,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-    }
+        let button = GradientButton(colors: [UIColor.systemGreen, UIColor.systemTeal])
+        button.frame = CGRect(x: 0, y: 0, width: 220, height: 20)
+        view.addSubview(button)
+        button.center = view.center
+        button.setTitle("Gradient view", for: .normal)
+        button.layer.cornerRadius = 8
+        }
+    
+    
     @IBOutlet weak var updateView: UISwitch!
     
     @IBAction func calculateTip(_ sender: Any) {
@@ -41,5 +47,5 @@ class ViewController: UIViewController {
     totalLabel.text = String(format: "$%.2f", total)
     
     }
-
 }
+

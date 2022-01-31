@@ -17,6 +17,7 @@
 		324F95152797AC2600D59A49 /* PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324F95142797AC2600D59A49 /* PreworkUITests.swift */; };
 		324F95172797AC2600D59A49 /* PreworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324F95162797AC2600D59A49 /* PreworkUITestsLaunchTests.swift */; };
 		324F95262798573400D59A49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324F95252798573400D59A49 /* SettingsViewController.swift */; };
+		32ED99C627A7837D0041A13B /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ED99C527A7837D0041A13B /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		324F95142797AC2600D59A49 /* PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITests.swift; sourceTree = "<group>"; };
 		324F95162797AC2600D59A49 /* PreworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		324F95252798573400D59A49 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Assets.xcassets/SettingsViewController.swift; sourceTree = "<group>"; };
+		32ED99C527A7837D0041A13B /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				324F94FC2797AC2600D59A49 /* Assets.xcassets */,
 				324F94FE2797AC2600D59A49 /* LaunchScreen.storyboard */,
 				324F95012797AC2600D59A49 /* Info.plist */,
+				32ED99C527A7837D0041A13B /* GradientButton.swift */,
 			);
 			path = Prework;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32ED99C627A7837D0041A13B /* GradientButton.swift in Sources */,
 				324F94F82797AC2500D59A49 /* ViewController.swift in Sources */,
 				324F94F42797AC2500D59A49 /* AppDelegate.swift in Sources */,
 				324F94F62797AC2500D59A49 /* SceneDelegate.swift in Sources */,
