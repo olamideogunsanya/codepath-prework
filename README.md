@@ -1,28 +1,8 @@
-# codepath-prework
-Tip Calculator
-# Pre-work - *IOS Tip Calculator*
-
 **IOS Tip Calculator** is a tip calculator application for iOS.
 
 Submitted by: **Olamide Ogunsanya**
 
-Time spent: **3** hours spent in total
-
 ## User Stories
-
-The following **required** functionality is complete:
-
-* [y] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [y] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
-
-The following **optional** features are implemented:
-
-* [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
-
-The following **additional** features are implemented:
 
 
 ## Video Walkthrough
@@ -32,10 +12,6 @@ Here's a walkthrough of implemented user stories:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Recordit] https://recordit.co/uWka00KWeV
-
-## Notes
-
-I had a bit of trouble getting the original screen to change background color dependent on the user switching the darkMode to on in the settings tab.
 
 ## License
 
